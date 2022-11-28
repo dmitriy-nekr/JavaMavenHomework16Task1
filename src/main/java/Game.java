@@ -3,12 +3,8 @@ import java.util.List;
 
 public class Game {
 
-    private List<Player> playersList = new ArrayList<>();
-    private List<Player> registeredList = new ArrayList<>();
 
-    public Game(List<Player> playersList) {
-        this.playersList = playersList;
-    }
+    private List<Player> registeredList = new ArrayList<>();
 
 
     public void register(Player player) {

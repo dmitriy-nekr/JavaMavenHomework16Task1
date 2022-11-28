@@ -18,7 +18,7 @@ public class GameTest {
     Player player6 = new Player(6, "Игрок 6", 6);
     Player player7 = new Player(7, "Игрок 7", 4);
     Player player8 = new Player(8, "Игрок 8", 2);
-    Game game = new Game(playersList);
+    Game game = new Game();
 
     @BeforeEach
     public void setup() {
